@@ -109,13 +109,11 @@ export default function AdminMain() {
                                 </Typography>
                                 <Divider style={{color:"blueviolet"}}/>
                                 <Grid padding={2} justifyContent={'center'} alignItems={'center'} textAlign={'center'}>
-                                    <TextField autoFocus value={new Date()} id="outlined-basic" type='date' label="From Date" variant="outlined" size='small' style={{ padding: 2, width: 225 }} /><br /><br />
-                                    <TextField value={new Date()} id="outlined-basic" type='date' label="To Date" variant="outlined" size='small' style={{ padding: 2, width: 225 }} /><br /><br />
-                                    <TextField id="outlined-basic" type='text' label="Vehicle Type" variant="outlined" size='small' style={{ padding: 2 }} /><br /><br />
-                                    <TextField id="outlined-basic" type='text' label="Vehicle Name" variant="outlined" size='small' style={{ padding: 2 }} /><br /><br />
-                                    <TextField id="outlined-basic" type='number' label="Vehicle Number" variant="outlined" size='small' style={{ padding: 2 }} /><br /><br />
+                                    <TextField id="outlined-basic" type='text' label="Package Name" variant="outlined" size='small' style={{ padding: 2 }} /><br /><br />
+                                    <TextField id="outlined-basic" type='text' label="Destination" variant="outlined" size='small' style={{ padding: 2 }} /><br /><br />
                                     <TextField id="outlined-basic" type='number' label="Price" variant="outlined" size='small' style={{ padding: 2 }} /><br /><br />
-                                    <TextField id="outlined-basic" type='textF' label="Current Location" variant="outlined" size='small' style={{ padding: 2 }} />
+                                    <TextField id="outlined-basic" type='textF' label="Duration In Days" variant="outlined" size='small' style={{ padding: 2 }} /><br /><br />
+                                    <TextField id="outlined-basic" type='number' label="Description" variant="outlined" size='small' style={{ padding: 2 }} />
                                 </Grid>
                                 <Grid justifyContent={'space-between'} alignItems={'space-between'} textAlign={'center'}>
                                     <Button variant='contained' style={{ textAlign: 'center', justifyContent: 'center' }}>Save</Button>&emsp;
