@@ -16,7 +16,7 @@
     "@testing-library/user-event": "^13.5.0",
     "apexcharts": "^3.45.2",
     "autosuggest-highlight": "^3.3.4",
-    "axios": "^1.6.2",
+    "axios": "^1.6.7",
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0",
     "react-router-dom": "^6.21.1",
