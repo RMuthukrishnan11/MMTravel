@@ -12,6 +12,7 @@ import Cabs from './Cabs/cab';
 import HolidayPackage from './HolidayPackage/holiday';
 import HolidayPlace from './HolidayPlace/holidayplace';
 import AdminMain from './Admin/main';
+import BusSeatsSelects from './SelectSeats/busSeatsSelect';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path='/holiday/book' element={<HolidayPackage />} />
           <Route path='/holiday/place' element={<HolidayPlace/>} />
           <Route path='/admin/main' element={<AdminMain/>} />
+          <Route path='/seat/selection' element={<BusSeatsSelects/>} />
         </Routes>
       </Router>
     </div>
