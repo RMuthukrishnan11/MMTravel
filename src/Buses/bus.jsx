@@ -26,6 +26,7 @@ import { GET_BOOKING, headers } from '../ApiServices/ServiceUrls'
 export default function Buses() {
     const location = useLocation();
     const navigate=useNavigate()
+
     const top100Films = [
         { title: 'Chennai', id: 1 },
         { title: 'Madurai', id: 2 },
@@ -83,10 +84,10 @@ export default function Buses() {
         }
 
     }
+
     const handleSelectSeats = () => {
         navigate('/seat/selection')
     }
-
     return (
         <Container maxWidth="xl" style={{ overflow: 'auto' }}>
             <Grid container style={{ backgroundColor: 'rgb(53 51 51)', marginTop: 4, paddingLeft: 15, borderRadius: '5px', paddingBottom: 7 }} >
